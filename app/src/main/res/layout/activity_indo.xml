@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Indo">
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#0A85C7"></View>
+    <TextView
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Sejarah INDONESIA"/>
+    <TextView
+        android:layout_marginLeft="20sp"
+        android:id="@+id/Nanya"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:textColor="#f33"
+        android:textSize="17sp"
+        android:text="kuis"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/Group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/A"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="B"
+                android:id="@+id/B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+                <RadioButton
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/C"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:layout_marginTop="30dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="D"
+                    android:id="@+id/D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="500dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="next"
+            android:text="Next"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
