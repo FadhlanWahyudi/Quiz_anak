@@ -11,6 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="350dp"
         android:src="@drawable/quiz1"/>
+    
+    <View
+        android:layout_width="350dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:background="#fff"
+        />
 
     <Button
         android:id="@+id/btn"
