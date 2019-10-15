@@ -20,6 +20,8 @@ public class HasilKuis extends Activity {
         TextView total = findViewById(R.id.hasil);
         Kunci = getIntent().getStringExtra("key");
         Hasil = getIntent().getStringExtra("hasil");
+                getSupportActionBar().setDisplayShowHomeEnabled(true);
+
 
         if (Kunci.equals("indo")) {
             nilai.setText("Benar :" + Indo.benar + "\nSalah :"+Indo.salah);
